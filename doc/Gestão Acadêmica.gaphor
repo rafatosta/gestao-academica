@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.17.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
+<styleSheet>
+<val>diagram {
+ /* line-style: sloppy 0.3; */
+}
+
+controlflow {
+  dash-style: 0;
+}
+</val>
+</styleSheet>
+</StyleSheet>
+<Diagram id="a1d1cd80-b83f-11ed-a392-6da23366c5f5">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<name>
+<val>gestão acadêmica</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="a940819e-b83f-11ed-9ebb-6da23366c5f5"/>
+<ref refid="b2431037-b83f-11ed-a30d-6da23366c5f5"/>
+<ref refid="b8eb4f2c-b83f-11ed-be62-6da23366c5f5"/>
+<ref refid="bebcd645-b83f-11ed-91d5-6da23366c5f5"/>
+<ref refid="eb481fe2-b840-11ed-af12-6da23366c5f5"/>
+<ref refid="33ed15db-b841-11ed-b48c-6da23366c5f5"/>
+<ref refid="e1561d48-b843-11ed-b2da-6da23366c5f5"/>
+<ref refid="5637f376-b840-11ed-b25f-6da23366c5f5"/>
+<ref refid="82c2196a-b840-11ed-a965-6da23366c5f5"/>
+<ref refid="8fca9ecf-b840-11ed-9d10-6da23366c5f5"/>
+<ref refid="d68d5ca3-b840-11ed-92fe-6da23366c5f5"/>
+<ref refid="f5bfa302-b840-11ed-a59f-6da23366c5f5"/>
+<ref refid="3f953e9e-b841-11ed-8c7d-6da23366c5f5"/>
+<ref refid="4a90749e-b841-11ed-9af0-6da23366c5f5"/>
+<ref refid="49e9da35-b844-11ed-96ab-6da23366c5f5"/>
+<ref refid="6a3c2c08-b844-11ed-bf3b-6da23366c5f5"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Class id="a9404760-b83f-11ed-a43c-6da23366c5f5">
+<name>
+<val>Aluno</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="a940819e-b83f-11ed-9ebb-6da23366c5f5"/>
+</reflist>
+</presentation>
+<specialization>
+<reflist>
+<ref refid="409b21d2-b841-11ed-b2b6-6da23366c5f5"/>
+</reflist>
+</specialization>
+</Class>
+<ClassItem id="a940819e-b83f-11ed-9ebb-6da23366c5f5">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 48.43360137939453, 228.5585708618164)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>76.0</val>
+</height>
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<subject>
+<ref refid="a9404760-b83f-11ed-a43c-6da23366c5f5"/>
+</subject>
+</ClassItem>
+<Class id="b242d43f-b83f-11ed-9c94-6da23366c5f5">
+<name>
+<val>Professor</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="d7b21737-b845-11ed-88f1-6da23366c5f5"/>
+</reflist>
+</ownedAttribute>
+<presentation>
+<reflist>
+<ref refid="b2431037-b83f-11ed-a30d-6da23366c5f5"/>
+</reflist>
+</presentation>
+<specialization>
+<reflist>
+<ref refid="4c8c00e4-b841-11ed-9cee-6da23366c5f5"/>
+</reflist>
+</specialization>
+</Class>
+<ClassItem id="b2431037-b83f-11ed-a30d-6da23366c5f5">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 357.23045349121094, 228.5585708618164)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>94.0</val>
+</height>
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<subject>
+<ref refid="b242d43f-b83f-11ed-9c94-6da23366c5f5"/>
+</subject>
+</ClassItem>
+<Class id="b8eb0d85-b83f-11ed-8af0-6da23366c5f5">
+<name>
+<val>Disciplina</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="57022862-b840-11ed-b389-6da23366c5f5"/>
+</reflist>
+</ownedAttribute>
+<presentation>
+<reflist>
+<ref refid="b8eb4f2c-b83f-11ed-be62-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="b8eb4f2c-b83f-11ed-be62-6da23366c5f5">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 212.63279724121094, 413.99607849121094)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>58.0</val>
+</height>
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<subject>
+<ref refid="b8eb0d85-b83f-11ed-8af0-6da23366c5f5"/>
+</subject>
+</ClassItem>
+<Class id="bebc84b8-b83f-11ed-9d3e-6da23366c5f5">
+<name>
+<val>Avaliação</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="53a8807b-b845-11ed-b5e7-6da23366c5f5"/>
+<ref refid="5b866b8c-b845-11ed-9040-6da23366c5f5"/>
+<ref refid="6122c45f-b845-11ed-89d1-6da23366c5f5"/>
+</reflist>
+</ownedAttribute>
+<presentation>
+<reflist>
+<ref refid="bebcd645-b83f-11ed-91d5-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="bebcd645-b83f-11ed-91d5-6da23366c5f5">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 212.63279724121094, 570.5780792236327)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>112.0</val>
+</height>
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<subject>
+<ref refid="bebc84b8-b83f-11ed-9d3e-6da23366c5f5"/>
+</subject>
+</ClassItem>
+<AssociationItem id="5637f376-b840-11ed-b25f-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<head_subject>
+<ref refid="5701fb85-b840-11ed-8f98-6da23366c5f5"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="5701c48f-b840-11ed-a157-6da23366c5f5"/>
+</subject>
+<tail_subject>
+<ref refid="57022862-b840-11ed-b389-6da23366c5f5"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 264.45310974121094, 462.80467224121094)</val>
+</matrix>
+<points>
+<val>[(-1.8203125, 9.19140625), (-1.8203125, 107.77340698242188)]</val>
+</points>
+<head-connection>
+<ref refid="b8eb4f2c-b83f-11ed-be62-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="bebcd645-b83f-11ed-91d5-6da23366c5f5"/>
+</tail-connection>
+</AssociationItem>
+<Association id="5701c48f-b840-11ed-a157-6da23366c5f5">
+<memberEnd>
+<reflist>
+<ref refid="5701fb85-b840-11ed-8f98-6da23366c5f5"/>
+<ref refid="57022862-b840-11ed-b389-6da23366c5f5"/>
+</reflist>
+</memberEnd>
+<ownedEnd>
+<reflist>
+<ref refid="5701fb85-b840-11ed-8f98-6da23366c5f5"/>
+</reflist>
+</ownedEnd>
+<presentation>
+<reflist>
+<ref refid="5637f376-b840-11ed-b25f-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Association>
+<Property id="5701fb85-b840-11ed-8f98-6da23366c5f5">
+<association>
+<ref refid="5701c48f-b840-11ed-a157-6da23366c5f5"/>
+</association>
+<owningAssociation>
+<ref refid="5701c48f-b840-11ed-a157-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="b8eb0d85-b83f-11ed-8af0-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>1</val>
+</upperValue>
+<upperValue>
+<val>1</val>
+</upperValue>
+</Property>
+<Property id="57022862-b840-11ed-b389-6da23366c5f5">
+<aggregation>
+<val>composite</val>
+</aggregation>
+<association>
+<ref refid="5701c48f-b840-11ed-a157-6da23366c5f5"/>
+</association>
+<class_>
+<ref refid="b8eb0d85-b83f-11ed-8af0-6da23366c5f5"/>
+</class_>
+<type>
+<ref refid="bebc84b8-b83f-11ed-9d3e-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>3</val>
+</upperValue>
+<upperValue>
+<val>3</val>
+</upperValue>
+</Property>
+<AssociationItem id="82c2196a-b840-11ed-a965-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<head_subject>
+<ref refid="83a1bfa9-b840-11ed-b6a1-6da23366c5f5"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="83a18717-b840-11ed-b020-6da23366c5f5"/>
+</subject>
+<tail_subject>
+<ref refid="83a1eb46-b840-11ed-a05d-6da23366c5f5"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 96.43750762939453, 283.30076599121094)</val>
+</matrix>
+<points>
+<val>[(0.0, 21.25780487060547), (1.99609375, 159.6953125), (116.1952896118164, 159.6953125)]</val>
+</points>
+<head-connection>
+<ref refid="a940819e-b83f-11ed-9ebb-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="b8eb4f2c-b83f-11ed-be62-6da23366c5f5"/>
+</tail-connection>
+</AssociationItem>
+<Association id="83a18717-b840-11ed-b020-6da23366c5f5">
+<memberEnd>
+<reflist>
+<ref refid="83a1bfa9-b840-11ed-b6a1-6da23366c5f5"/>
+<ref refid="83a1eb46-b840-11ed-a05d-6da23366c5f5"/>
+</reflist>
+</memberEnd>
+<ownedEnd>
+<reflist>
+<ref refid="83a1eb46-b840-11ed-a05d-6da23366c5f5"/>
+<ref refid="83a1bfa9-b840-11ed-b6a1-6da23366c5f5"/>
+</reflist>
+</ownedEnd>
+<presentation>
+<reflist>
+<ref refid="82c2196a-b840-11ed-a965-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Association>
+<Property id="83a1bfa9-b840-11ed-b6a1-6da23366c5f5">
+<association>
+<ref refid="83a18717-b840-11ed-b020-6da23366c5f5"/>
+</association>
+<lowerValue>
+<val>1</val>
+</lowerValue>
+<lowerValue>
+<val>1</val>
+</lowerValue>
+<owningAssociation>
+<ref refid="83a18717-b840-11ed-b020-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="a9404760-b83f-11ed-a43c-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>*</val>
+</upperValue>
+<upperValue>
+<val>*</val>
+</upperValue>
+</Property>
+<Property id="83a1eb46-b840-11ed-a05d-6da23366c5f5">
+<association>
+<ref refid="83a18717-b840-11ed-b020-6da23366c5f5"/>
+</association>
+<lowerValue>
+<val>0</val>
+</lowerValue>
+<lowerValue>
+<val>0</val>
+</lowerValue>
+<owningAssociation>
+<ref refid="83a18717-b840-11ed-b020-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="b8eb0d85-b83f-11ed-8af0-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>*</val>
+</upperValue>
+<upperValue>
+<val>*</val>
+</upperValue>
+</Property>
+<Line id="8fca9ecf-b840-11ed-9d10-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 227.00779724121094, 277.109375)</val>
+</matrix>
+<points>
+<val>[(0.0, 0.0), (0.0, 0.0)]</val>
+</points>
+</Line>
+<AssociationItem id="d68d5ca3-b840-11ed-92fe-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<head_subject>
+<ref refid="d740921e-b840-11ed-bc07-6da23366c5f5"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="d7404198-b840-11ed-9bea-6da23366c5f5"/>
+</subject>
+<tail_subject>
+<ref refid="d740c143-b840-11ed-8374-6da23366c5f5"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 399.36328125, 285.76951599121094)</val>
+</matrix>
+<points>
+<val>[(7.8671722412109375, 36.78905487060547), (7.8671722412109375, 157.2265625), (-86.73048400878906, 157.2265625)]</val>
+</points>
+<head-connection>
+<ref refid="b2431037-b83f-11ed-a30d-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="b8eb4f2c-b83f-11ed-be62-6da23366c5f5"/>
+</tail-connection>
+</AssociationItem>
+<Association id="d7404198-b840-11ed-9bea-6da23366c5f5">
+<memberEnd>
+<reflist>
+<ref refid="d740921e-b840-11ed-bc07-6da23366c5f5"/>
+<ref refid="d740c143-b840-11ed-8374-6da23366c5f5"/>
+</reflist>
+</memberEnd>
+<ownedEnd>
+<reflist>
+<ref refid="d740c143-b840-11ed-8374-6da23366c5f5"/>
+<ref refid="d740921e-b840-11ed-bc07-6da23366c5f5"/>
+</reflist>
+</ownedEnd>
+<presentation>
+<reflist>
+<ref refid="d68d5ca3-b840-11ed-92fe-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Association>
+<Property id="d740921e-b840-11ed-bc07-6da23366c5f5">
+<association>
+<ref refid="d7404198-b840-11ed-9bea-6da23366c5f5"/>
+</association>
+<owningAssociation>
+<ref refid="d7404198-b840-11ed-9bea-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="b242d43f-b83f-11ed-9c94-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>1</val>
+</upperValue>
+<upperValue>
+<val>1</val>
+</upperValue>
+</Property>
+<Property id="d740c143-b840-11ed-8374-6da23366c5f5">
+<association>
+<ref refid="d7404198-b840-11ed-9bea-6da23366c5f5"/>
+</association>
+<lowerValue>
+<val>0</val>
+</lowerValue>
+<lowerValue>
+<val>0</val>
+</lowerValue>
+<owningAssociation>
+<ref refid="d7404198-b840-11ed-9bea-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="b8eb0d85-b83f-11ed-8af0-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>*</val>
+</upperValue>
+<upperValue>
+<val>*</val>
+</upperValue>
+</Property>
+<Class id="eb47e2b0-b840-11ed-b2d1-6da23366c5f5">
+<name>
+<val>Departamento</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="eb481fe2-b840-11ed-af12-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="eb481fe2-b840-11ed-af12-6da23366c5f5">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 607.0858764648438, 242.5954905542834)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>101.0</val>
+</width>
+<height>
+<val>58.0</val>
+</height>
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<subject>
+<ref refid="eb47e2b0-b840-11ed-b2d1-6da23366c5f5"/>
+</subject>
+</ClassItem>
+<AssociationItem id="f5bfa302-b840-11ed-a59f-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<head_subject>
+<ref refid="f677a4fb-b840-11ed-8ea0-6da23366c5f5"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="f6776cdd-b840-11ed-9078-6da23366c5f5"/>
+</subject>
+<tail_subject>
+<ref refid="f677d36a-b840-11ed-806a-6da23366c5f5"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 453.2109375, 267.3397903442383)</val>
+</matrix>
+<points>
+<val>[(4.0195159912109375, 4.25570021004512), (153.87493896484375, 1.8103953394396513)]</val>
+</points>
+<head-connection>
+<ref refid="b2431037-b83f-11ed-a30d-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="eb481fe2-b840-11ed-af12-6da23366c5f5"/>
+</tail-connection>
+</AssociationItem>
+<Association id="f6776cdd-b840-11ed-9078-6da23366c5f5">
+<memberEnd>
+<reflist>
+<ref refid="f677a4fb-b840-11ed-8ea0-6da23366c5f5"/>
+<ref refid="f677d36a-b840-11ed-806a-6da23366c5f5"/>
+</reflist>
+</memberEnd>
+<ownedEnd>
+<reflist>
+<ref refid="f677a4fb-b840-11ed-8ea0-6da23366c5f5"/>
+<ref refid="f677d36a-b840-11ed-806a-6da23366c5f5"/>
+</reflist>
+</ownedEnd>
+<presentation>
+<reflist>
+<ref refid="f5bfa302-b840-11ed-a59f-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Association>
+<Property id="f677a4fb-b840-11ed-8ea0-6da23366c5f5">
+<aggregation>
+<val>composite</val>
+</aggregation>
+<association>
+<ref refid="f6776cdd-b840-11ed-9078-6da23366c5f5"/>
+</association>
+<lowerValue>
+<val>0</val>
+</lowerValue>
+<lowerValue>
+<val>0</val>
+</lowerValue>
+<owningAssociation>
+<ref refid="f6776cdd-b840-11ed-9078-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="b242d43f-b83f-11ed-9c94-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>*</val>
+</upperValue>
+<upperValue>
+<val>*</val>
+</upperValue>
+</Property>
+<Property id="f677d36a-b840-11ed-806a-6da23366c5f5">
+<association>
+<ref refid="f6776cdd-b840-11ed-9078-6da23366c5f5"/>
+</association>
+<owningAssociation>
+<ref refid="f6776cdd-b840-11ed-9078-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="eb47e2b0-b840-11ed-b2d1-6da23366c5f5"/>
+</type>
+<upperValue>
+<val>1</val>
+</upperValue>
+<upperValue>
+<val>1</val>
+</upperValue>
+</Property>
+<Class id="33ecd6a0-b841-11ed-abaf-6da23366c5f5">
+<generalization>
+<reflist>
+<ref refid="409b21d2-b841-11ed-b2b6-6da23366c5f5"/>
+<ref refid="4c8c00e4-b841-11ed-9cee-6da23366c5f5"/>
+</reflist>
+</generalization>
+<name>
+<val>Pessoas</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="800c24e4-b845-11ed-b3b4-6da23366c5f5"/>
+<ref refid="831bc64b-b845-11ed-9c9b-6da23366c5f5"/>
+<ref refid="1edf8d6b-b846-11ed-b89f-6da23366c5f5"/>
+</reflist>
+</ownedAttribute>
+<presentation>
+<reflist>
+<ref refid="33ed15db-b841-11ed-b48c-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="33ed15db-b841-11ed-b48c-6da23366c5f5">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 202.53514099121088, 33.144515991210994)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>112.0</val>
+</height>
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<subject>
+<ref refid="33ecd6a0-b841-11ed-abaf-6da23366c5f5"/>
+</subject>
+</ClassItem>
+<GeneralizationItem id="3f953e9e-b841-11ed-8c7d-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="409b21d2-b841-11ed-b2b6-6da23366c5f5"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 109.94922637939453, 227.76951599121094)</val>
+</matrix>
+<points>
+<val>[(142.5859146118164, -82.625), (142.5859146118164, -30.695297241210938), (-11.515625, -30.695297241210938), (-11.515625, 0.7890548706054688)]</val>
+</points>
+<head-connection>
+<ref refid="33ed15db-b841-11ed-b48c-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="a940819e-b83f-11ed-9ebb-6da23366c5f5"/>
+</tail-connection>
+</GeneralizationItem>
+<Generalization id="409b21d2-b841-11ed-b2b6-6da23366c5f5">
+<general>
+<ref refid="a9404760-b83f-11ed-a43c-6da23366c5f5"/>
+</general>
+<presentation>
+<reflist>
+<ref refid="3f953e9e-b841-11ed-8c7d-6da23366c5f5"/>
+</reflist>
+</presentation>
+<specific>
+<ref refid="33ecd6a0-b841-11ed-abaf-6da23366c5f5"/>
+</specific>
+</Generalization>
+<GeneralizationItem id="4a90749e-b841-11ed-9af0-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="4c8c00e4-b841-11ed-9cee-6da23366c5f5"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 393.921875, 230.83592224121094)</val>
+</matrix>
+<points>
+<val>[(-141.38673400878906, -85.69140625), (-141.38673400878906, -33.76170349121094), (13.308578491210938, -33.76170349121094), (13.308578491210938, -2.2773513793945312)]</val>
+</points>
+<head-connection>
+<ref refid="33ed15db-b841-11ed-b48c-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="b2431037-b83f-11ed-a30d-6da23366c5f5"/>
+</tail-connection>
+</GeneralizationItem>
+<Generalization id="4c8c00e4-b841-11ed-9cee-6da23366c5f5">
+<general>
+<ref refid="b242d43f-b83f-11ed-9c94-6da23366c5f5"/>
+</general>
+<presentation>
+<reflist>
+<ref refid="4a90749e-b841-11ed-9af0-6da23366c5f5"/>
+</reflist>
+</presentation>
+<specific>
+<ref refid="33ecd6a0-b841-11ed-abaf-6da23366c5f5"/>
+</specific>
+</Generalization>
+<Class id="e155df23-b843-11ed-938d-6da23366c5f5">
+<name>
+<val>Universidade</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="4ae5c464-b844-11ed-9144-6da23366c5f5"/>
+<ref refid="6c5b3a6a-b844-11ed-ba5e-6da23366c5f5"/>
+</reflist>
+</ownedAttribute>
+<presentation>
+<reflist>
+<ref refid="e1561d48-b843-11ed-b2da-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="e1561d48-b843-11ed-b2da-6da23366c5f5">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 607.5858764648438, 60.14451599121094)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>58.0</val>
+</height>
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<subject>
+<ref refid="e155df23-b843-11ed-938d-6da23366c5f5"/>
+</subject>
+</ClassItem>
+<AssociationItem id="49e9da35-b844-11ed-96ab-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<head_subject>
+<ref refid="4ae595f4-b844-11ed-b1d2-6da23366c5f5"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="4ae55c01-b844-11ed-9431-6da23366c5f5"/>
+</subject>
+<tail_subject>
+<ref refid="4ae5c464-b844-11ed-9144-6da23366c5f5"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 657.7780030396607, 111.91310014723912)</val>
+</matrix>
+<points>
+<val>[(0.0, 6.231415843971817), (0.5, 130.6823904070443)]</val>
+</points>
+<head-connection>
+<ref refid="e1561d48-b843-11ed-b2da-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="eb481fe2-b840-11ed-af12-6da23366c5f5"/>
+</tail-connection>
+</AssociationItem>
+<Association id="4ae55c01-b844-11ed-9431-6da23366c5f5">
+<memberEnd>
+<reflist>
+<ref refid="4ae595f4-b844-11ed-b1d2-6da23366c5f5"/>
+<ref refid="4ae5c464-b844-11ed-9144-6da23366c5f5"/>
+</reflist>
+</memberEnd>
+<ownedEnd>
+<reflist>
+<ref refid="4ae595f4-b844-11ed-b1d2-6da23366c5f5"/>
+</reflist>
+</ownedEnd>
+<presentation>
+<reflist>
+<ref refid="49e9da35-b844-11ed-96ab-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Association>
+<Property id="4ae595f4-b844-11ed-b1d2-6da23366c5f5">
+<association>
+<ref refid="4ae55c01-b844-11ed-9431-6da23366c5f5"/>
+</association>
+<owningAssociation>
+<ref refid="4ae55c01-b844-11ed-9431-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="e155df23-b843-11ed-938d-6da23366c5f5"/>
+</type>
+</Property>
+<Property id="4ae5c464-b844-11ed-9144-6da23366c5f5">
+<aggregation>
+<val>shared</val>
+</aggregation>
+<association>
+<ref refid="4ae55c01-b844-11ed-9431-6da23366c5f5"/>
+</association>
+<class_>
+<ref refid="e155df23-b843-11ed-938d-6da23366c5f5"/>
+</class_>
+<type>
+<ref refid="eb47e2b0-b840-11ed-b2d1-6da23366c5f5"/>
+</type>
+</Property>
+<AssociationItem id="6a3c2c08-b844-11ed-bf3b-6da23366c5f5">
+<diagram>
+<ref refid="a1d1cd80-b83f-11ed-a392-6da23366c5f5"/>
+</diagram>
+<head_subject>
+<ref refid="6c5b0ce0-b844-11ed-9e6d-6da23366c5f5"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<subject>
+<ref refid="6c5ad2a8-b844-11ed-aebf-6da23366c5f5"/>
+</subject>
+<tail_subject>
+<ref refid="6c5b3a6a-b844-11ed-ba5e-6da23366c5f5"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 606.7276792783995, 97.5537667274066)</val>
+</matrix>
+<points>
+<val>[(0.8581971864442721, -8.409250736195645), (-304.19253828718854, -8.40925073619563)]</val>
+</points>
+<head-connection>
+<ref refid="e1561d48-b843-11ed-b2da-6da23366c5f5"/>
+</head-connection>
+<tail-connection>
+<ref refid="33ed15db-b841-11ed-b48c-6da23366c5f5"/>
+</tail-connection>
+</AssociationItem>
+<Association id="6c5ad2a8-b844-11ed-aebf-6da23366c5f5">
+<memberEnd>
+<reflist>
+<ref refid="6c5b0ce0-b844-11ed-9e6d-6da23366c5f5"/>
+<ref refid="6c5b3a6a-b844-11ed-ba5e-6da23366c5f5"/>
+</reflist>
+</memberEnd>
+<ownedEnd>
+<reflist>
+<ref refid="6c5b0ce0-b844-11ed-9e6d-6da23366c5f5"/>
+</reflist>
+</ownedEnd>
+<presentation>
+<reflist>
+<ref refid="6a3c2c08-b844-11ed-bf3b-6da23366c5f5"/>
+</reflist>
+</presentation>
+</Association>
+<Property id="6c5b0ce0-b844-11ed-9e6d-6da23366c5f5">
+<association>
+<ref refid="6c5ad2a8-b844-11ed-aebf-6da23366c5f5"/>
+</association>
+<owningAssociation>
+<ref refid="6c5ad2a8-b844-11ed-aebf-6da23366c5f5"/>
+</owningAssociation>
+<type>
+<ref refid="e155df23-b843-11ed-938d-6da23366c5f5"/>
+</type>
+</Property>
+<Property id="6c5b3a6a-b844-11ed-ba5e-6da23366c5f5">
+<aggregation>
+<val>shared</val>
+</aggregation>
+<association>
+<ref refid="6c5ad2a8-b844-11ed-aebf-6da23366c5f5"/>
+</association>
+<class_>
+<ref refid="e155df23-b843-11ed-938d-6da23366c5f5"/>
+</class_>
+<type>
+<ref refid="33ecd6a0-b841-11ed-abaf-6da23366c5f5"/>
+</type>
+</Property>
+<Property id="53a8807b-b845-11ed-b5e7-6da23366c5f5">
+<class_>
+<ref refid="bebc84b8-b83f-11ed-9d3e-6da23366c5f5"/>
+</class_>
+<name>
+<val>data</val>
+</name>
+</Property>
+<Property id="5b866b8c-b845-11ed-9040-6da23366c5f5">
+<class_>
+<ref refid="bebc84b8-b83f-11ed-9d3e-6da23366c5f5"/>
+</class_>
+<name>
+<val>peso</val>
+</name>
+</Property>
+<Property id="6122c45f-b845-11ed-89d1-6da23366c5f5">
+<class_>
+<ref refid="bebc84b8-b83f-11ed-9d3e-6da23366c5f5"/>
+</class_>
+<name>
+<val>conteúdo</val>
+</name>
+</Property>
+<Property id="800c24e4-b845-11ed-b3b4-6da23366c5f5">
+<class_>
+<ref refid="33ecd6a0-b841-11ed-abaf-6da23366c5f5"/>
+</class_>
+<name>
+<val>nome</val>
+</name>
+</Property>
+<Property id="831bc64b-b845-11ed-9c9b-6da23366c5f5">
+<class_>
+<ref refid="33ecd6a0-b841-11ed-abaf-6da23366c5f5"/>
+</class_>
+<name>
+<val>cpf</val>
+</name>
+</Property>
+<Property id="d7b21737-b845-11ed-88f1-6da23366c5f5">
+<class_>
+<ref refid="b242d43f-b83f-11ed-9c94-6da23366c5f5"/>
+</class_>
+<name>
+<val>cHoraria</val>
+</name>
+</Property>
+<Property id="1edf8d6b-b846-11ed-b89f-6da23366c5f5">
+<class_>
+<ref refid="33ecd6a0-b841-11ed-abaf-6da23366c5f5"/>
+</class_>
+<name>
+<val>matrícula</val>
+</name>
+</Property>
+</gaphor>

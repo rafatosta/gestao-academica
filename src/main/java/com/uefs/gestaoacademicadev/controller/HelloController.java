@@ -1,4 +1,4 @@
-package com.uefs.gestaoacademicadev;
+package com.uefs.gestaoacademicadev.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

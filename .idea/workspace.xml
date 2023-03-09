@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd0265ea-89b4-4fbf-af5d-c32040746d24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/disciplina/DisciplinaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/disciplina/DisciplinaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/disciplina/DisciplinaListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/disciplina/DisciplinaListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Professor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

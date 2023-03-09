@@ -1,33 +1,15 @@
 package com.uefs.gestaoacademica.model;
 
-public class Aluno {
-
-    private int id;
-
-    private String nome;
+public class Aluno extends Pessoa {
 
     public Aluno(String nome) {
-        this.nome = nome;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+        super(nome);
     }
 
     @Override
-    public String toString() {
-        return this.id + "\t" + this.nome;
+    public String getMatricula() {
+        return this.getId() + "AL";
     }
+
+
 }

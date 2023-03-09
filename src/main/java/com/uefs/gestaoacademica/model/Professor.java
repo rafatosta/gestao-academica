@@ -1,23 +1,15 @@
 package com.uefs.gestaoacademica.model;
 
-public class Professor {
-    private int id;
-    private String nome;
+public class Professor extends Pessoa {
 
     public Professor(String nome) {
-        this.nome = nome;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
+        super(nome);
     }
 
     @Override
-    public String toString() {
-        return this.id + "\t" + this.nome;
+    public String getMatricula() {
+        return this.getId() + "PROF";
     }
+
+
 }

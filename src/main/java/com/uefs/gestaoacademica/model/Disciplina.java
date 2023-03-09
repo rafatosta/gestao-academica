@@ -1,11 +1,14 @@
 package com.uefs.gestaoacademica.model;
 
+import com.uefs.gestaoacademica.dao.DAO;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Disciplina {
     private int id;
     private String nome;
-    private List<Aluno> alunos;
+    private List<Integer> alunosID;
     private Professor professor;
     private List<Avaliacao> avaliacoes;
 
@@ -17,15 +20,31 @@ public class Disciplina {
         this.id = id;
     }
 
-    public void setAlunos(List<Aluno> alunos) {
-        this.alunos = alunos;
+    public void alocarAluno(Aluno aluno) {
+        this.alunosID.add(aluno.getId());
+    }
+
+    public List<Aluno> getAlunos() {
+        List<Aluno> alunos = new ArrayList<Aluno>();
+
+        for (Integer alunoID : this.alunosID) {
+            Aluno a = (Aluno) DAO.getAluno().findById(alunoID);
+            alunos.add(a);
+        }
+
+        return alunos;
     }
 
     public void setProfessor(Professor professor) {
+
         this.professor = professor;
     }
 
     public void setAvaliacao(String desricao, double peso) {
         avaliacoes.add(new Avaliacao(desricao, peso));
+    }
+
+    public int getId() {
+        return id;
     }
 }

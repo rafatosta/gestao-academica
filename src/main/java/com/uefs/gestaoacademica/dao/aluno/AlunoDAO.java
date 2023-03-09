@@ -5,9 +5,7 @@ import com.uefs.gestaoacademica.model.Aluno;
 
 import java.util.List;
 
-public interface AlunoDAO extends CRUD {
+public interface AlunoDAO extends CRUD<Aluno> {
     public List<Aluno> findByName(String name);
-
-    public List<Aluno> findMany();
 
 }

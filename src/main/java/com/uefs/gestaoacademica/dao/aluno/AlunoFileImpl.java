@@ -7,22 +7,22 @@ import java.util.List;
 public class AlunoFileImpl implements AlunoDAO {
 
     @Override
-    public Object create(Object obj) {
+    public Aluno create(Aluno obj) {
         return null;
     }
 
     @Override
-    public List findMany() {
+    public Aluno findById(int id) {
         return null;
     }
 
     @Override
-    public Object findById(int id) {
+    public List<Aluno> findMany() {
         return null;
     }
 
     @Override
-    public void update(Object obj) {
+    public void update(Aluno obj) {
 
     }
 

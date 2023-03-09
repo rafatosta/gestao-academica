@@ -6,8 +6,6 @@ import com.uefs.gestaoacademica.model.Disciplina;
 
 import java.util.List;
 
-public interface DisciplinaDAO extends CRUD {
-
-    public List<Disciplina> findMany();
+public interface DisciplinaDAO extends CRUD<Disciplina> {
 
 }

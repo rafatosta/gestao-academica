@@ -3,23 +3,21 @@ package com.uefs.gestaoacademica.dao.aluno;
 import com.uefs.gestaoacademica.model.Aluno;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class AlunoListImpl implements AlunoDAO {
 
-    private List<Object> lista;
+    private List<Aluno> lista;
 
     private int nextID;
 
     public AlunoListImpl() {
-        this.lista = new ArrayList<Object>();
+        this.lista = new ArrayList<Aluno>();
         this.nextID = 0;
     }
 
     @Override
-    public Aluno create(Object obj) {
-        Aluno aluno = (Aluno) obj;
+    public Aluno create(Aluno aluno) {
         aluno.setId(this.nextID);
         this.nextID++;
 
@@ -38,9 +36,8 @@ public class AlunoListImpl implements AlunoDAO {
     }
 
     @Override
-    public Object findById(int id) {
-        for (Object a : this.lista) {
-            Aluno aluno = (Aluno) a;
+    public Aluno findById(int id) {
+        for (Aluno aluno : this.lista) {
             if (aluno.getId() == id) {
                 return aluno;
             }
@@ -51,8 +48,7 @@ public class AlunoListImpl implements AlunoDAO {
     @Override
     public List<Aluno> findByName(String name) {
         List<Aluno> listAluno = new ArrayList<Aluno>();
-        for (Object a : this.lista) {
-            Aluno aluno = (Aluno) a;
+        for (Aluno aluno : this.lista) {
             if (aluno.getNome() == name) {
                 listAluno.add(aluno);
             }
@@ -61,12 +57,10 @@ public class AlunoListImpl implements AlunoDAO {
     }
 
     @Override
-    public void update(Object obj) {
-        Aluno upAluno = (Aluno) obj;
+    public void update(Aluno aluno) {
         for (int i = 0; i < this.lista.size(); i++) {
-            Aluno alunoL = (Aluno) this.lista.get(i);
-            if (alunoL.getId() == upAluno.getId()) {
-                this.lista.add(i, upAluno);
+            if (this.lista.get(i).getId() == aluno.getId()) {
+                this.lista.add(i, aluno);
                 return;
             }
         }
@@ -75,8 +69,7 @@ public class AlunoListImpl implements AlunoDAO {
     @Override
     public void delete(int id) {
         for (int i = 0; i < this.lista.size(); i++) {
-            Aluno alunoL = (Aluno) this.lista.get(i);
-            if (alunoL.getId() == id) {
+            if (this.lista.get(i).getId() == id) {
                 this.lista.remove(i);
                 return;
             }

@@ -8,18 +8,23 @@ import java.util.List;
 
 public class DisciplinaListImpl implements DisciplinaDAO {
 
-    private List<Object> lista;
+    private List<Disciplina> lista;
 
     private int nextID;
 
     public DisciplinaListImpl() {
-        this.lista = new ArrayList<Object>();
+        this.lista = new ArrayList<Disciplina>();
         this.nextID = 0;
     }
 
 
     @Override
-    public Object create(Object obj) {
+    public Disciplina create(Disciplina obj) {
+        return null;
+    }
+
+    @Override
+    public Disciplina findById(int id) {
         return null;
     }
 
@@ -29,12 +34,7 @@ public class DisciplinaListImpl implements DisciplinaDAO {
     }
 
     @Override
-    public Object findById(int id) {
-        return null;
-    }
-
-    @Override
-    public void update(Object obj) {
+    public void update(Disciplina obj) {
 
     }
 

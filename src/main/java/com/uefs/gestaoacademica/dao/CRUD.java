@@ -4,13 +4,15 @@ import com.uefs.gestaoacademica.model.Aluno;
 
 import java.util.List;
 
-public interface CRUD {
+public interface CRUD<T> {
 
-    public Object create(Object obj);
+    public T create(T obj);
 
-    public Object findById(int id);
+    public T findById(int id);
 
-    public void update(Object obj);
+    public List<T> findMany();
+
+    public void update(T obj);
 
     public void delete(int id);
 }

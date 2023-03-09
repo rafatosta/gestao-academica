@@ -1,4 +1,4 @@
-package com.uefs.gestaoacademicadev.model;
+package com.uefs.gestaoacademica.model;
 
 public class Aluno {
 

@@ -1,4 +1,4 @@
-package com.uefs.gestaoacademicadev;
+package com.uefs.gestaoacademica;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

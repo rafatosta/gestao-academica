@@ -6,11 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="cd0265ea-89b4-4fbf-af5d-c32040746d24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Avaliacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Avaliacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Disciplina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademicadev/model/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/uefs/gestaoacademicadev/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/uefs/gestaoacademicadev/main-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/uefs/gestaoacademicadev/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/uefs/gestaoacademica/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

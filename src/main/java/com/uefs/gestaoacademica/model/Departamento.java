@@ -1,4 +1,4 @@
-package com.uefs.gestaoacademicadev.model;
+package com.uefs.gestaoacademica.model;
 
 import java.util.List;
 

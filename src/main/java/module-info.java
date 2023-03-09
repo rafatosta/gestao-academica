@@ -6,9 +6,9 @@ module com.uefs.gestaoacademicadev {
     requires net.synedra.validatorfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.uefs.gestaoacademicadev to javafx.fxml;
-    exports com.uefs.gestaoacademicadev;
-    exports com.uefs.gestaoacademicadev.controller;
-    exports com.uefs.gestaoacademicadev.model;
-    opens com.uefs.gestaoacademicadev.controller to javafx.fxml;
+    opens com.uefs.gestaoacademica to javafx.fxml;
+    exports com.uefs.gestaoacademica;
+    exports com.uefs.gestaoacademica.controller;
+    exports com.uefs.gestaoacademica.model;
+    opens com.uefs.gestaoacademica.controller to javafx.fxml;
 }

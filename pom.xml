@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.uefs</groupId>
-    <artifactId>gestao-academica-dev</artifactId>
+    <artifactId>gestao-academica</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>gestao-academica-dev</name>
 
@@ -86,7 +86,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.uefs.gestaoacademicadev/com.uefs.gestaoacademicadev.MainApplication
+                            <mainClass>com.uefs.gestaoacademicadev/com.uefs.gestaoacademica.MainApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

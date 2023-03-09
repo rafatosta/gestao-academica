@@ -1,9 +1,9 @@
-package com.uefs.gestaoacademicadev.controller;
+package com.uefs.gestaoacademica.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import com.uefs.gestaoacademicadev.model.Aluno;
+import com.uefs.gestaoacademica.model.Aluno;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

@@ -1,8 +1,10 @@
 package com.uefs.gestaoacademica.controller;
 
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
+import com.uefs.gestaoacademica.dao.DAO;
 import com.uefs.gestaoacademica.model.Aluno;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -43,6 +45,9 @@ public class MainController {
     void btnAddAction(ActionEvent event) {
         if (this.nomeAluno.getText() != "") {
             Aluno novoAluno = new Aluno(this.nomeAluno.getText());
+
+            novoAluno = (Aluno) DAO.getAluno().create(novoAluno);
+
             this.alunosData.add(novoAluno);
             this.clearAll();
         } else {
@@ -59,6 +64,9 @@ public class MainController {
             try {
                 Aluno editAluno = this.tabelaAlunos.getSelectionModel().getSelectedItem();
                 editAluno.setNome(this.nomeAluno.getText());
+
+                DAO.getAluno().update(editAluno);
+
                 this.alunosData.set(i, editAluno);
                 this.clearAll();
             } catch (Exception e) {
@@ -72,6 +80,10 @@ public class MainController {
     void btnDelAction(ActionEvent event) {
         int i = this.tabelaAlunos.getSelectionModel().getSelectedIndex();
         if (i >= 0) {
+            Aluno deleteAluno = this.tabelaAlunos.getSelectionModel().getSelectedItem();
+
+            DAO.getAluno().delete(deleteAluno.getId());
+
             this.alunosData.remove(i);
         }
 
@@ -79,8 +91,11 @@ public class MainController {
 
     @FXML
     void initialize() {
+
+        List<Aluno> listaAlunos = DAO.getAluno().findMany();
+
         this.alunosData = FXCollections.observableArrayList();
-        this.alunosData.addAll(new Aluno("Joao"), new Aluno("Maria"));
+        this.alunosData.addAll(listaAlunos);
 
         TableColumn idCol = new TableColumn("Id");
         idCol.setCellValueFactory(new PropertyValueFactory<Aluno, String>("id"));
@@ -90,7 +105,6 @@ public class MainController {
 
         this.tabelaAlunos.getColumns().addAll(idCol, nomeCol);
         this.tabelaAlunos.setItems(this.alunosData);
-
     }
 
     private void clearAll() {

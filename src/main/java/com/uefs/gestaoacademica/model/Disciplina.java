@@ -12,8 +12,12 @@ public class Disciplina {
     private Integer professorID;
     private List<Avaliacao> avaliacoes;
 
+    private final int LIMITE_AVALIACOES = 3;
+
     public Disciplina(String nome) {
         this.nome = nome;
+        this.alunosID = new ArrayList<Integer>();
+        this.avaliacoes = new ArrayList<Avaliacao>();
     }
 
     public void setId(int id) {
@@ -42,11 +46,17 @@ public class Disciplina {
     }
 
     public void setAvaliacao(Avaliacao avaliacao) {
-        avaliacoes.add(avaliacao);
+        if (this.avaliacoes.size() < LIMITE_AVALIACOES) {
+            avaliacoes.add(avaliacao);
+        }
     }
 
     public List<Avaliacao> getAvaliacoes() {
         return this.avaliacoes;
+    }
+
+    public int getLIMITE_AVALIACOES(){
+        return this.LIMITE_AVALIACOES;
     }
 
 

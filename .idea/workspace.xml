@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd0265ea-89b4-4fbf-af5d-c32040746d24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/model/Disciplina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
         <option value="Kotlin Interface" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,6 +46,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/home/tosta/IdeaProjects/gestao-academica"
   },
   "keyToStringList": {
@@ -56,6 +60,68 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.uefs.gestaoacademica.dao.disciplina" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.uefs.gestaoacademica.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DisciplinaTest">
+    <configuration name="DisciplinaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gestao-academica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uefs.gestaoacademica.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.model" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.model.DisciplinaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisciplinaTest.alocarAluno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gestao-academica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uefs.gestaoacademica.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.model" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.model.DisciplinaTest" />
+      <option name="METHOD_NAME" value="alocarAluno" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisciplinaTest.setAvaliacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gestao-academica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uefs.gestaoacademica.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.model" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.model.DisciplinaTest" />
+      <option name="METHOD_NAME" value="setAvaliacao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DisciplinaTest" />
+        <item itemvalue="JUnit.DisciplinaTest.setAvaliacao" />
+        <item itemvalue="JUnit.DisciplinaTest.alocarAluno" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,16 +133,5 @@
       <updated>1677848614000</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/disciplina/DisciplinaListImpl.java</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

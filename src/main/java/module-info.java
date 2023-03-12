@@ -1,4 +1,4 @@
-module com.uefs.gestaoacademicadev {
+module com.uefs.gestaoacademica {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -10,5 +10,10 @@ module com.uefs.gestaoacademicadev {
     exports com.uefs.gestaoacademica;
     exports com.uefs.gestaoacademica.controller;
     exports com.uefs.gestaoacademica.model;
+
+    /** Necessário para a Test Suit */
+    opens com.uefs.gestaoacademica.dao.aluno;
+    opens com.uefs.gestaoacademica.model;
+
     opens com.uefs.gestaoacademica.controller to javafx.fxml;
 }

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd0265ea-89b4-4fbf-af5d-c32040746d24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/uefs/gestaoacademica/dao/aluno/AlunoListImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/uefs/gestaoacademica/GATestSuit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/aluno/AlunoListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tosta/IdeaProjects/gestao-academica&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/tosta/IdeaProjects/gestao-academica",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47356322"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.uefs.gestaoacademica.dao.disciplina" />
@@ -69,7 +76,7 @@
       <recent name="com.uefs.gestaoacademica.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AlunoListImplTest">
+  <component name="RunManager" selected="JUnit.GATestSuit">
     <configuration name="AlunoListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestao-academica" />
       <extension name="coverage">
@@ -133,29 +140,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlunoListImplTest.findMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GATestSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestao-academica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.aluno.*" />
+          <option name="PATTERN" value="com.uefs.gestaoacademica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.aluno" />
-      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.aluno.AlunoListImplTest" />
-      <option name="METHOD_NAME" value="findMany" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.GATestSuit" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GATestSuit" />
         <item itemvalue="JUnit.AlunoListImplTest" />
         <item itemvalue="JUnit.AlunoListImplTest.findByName" />
         <item itemvalue="JUnit.AlunoListImplTest.delete" />
         <item itemvalue="JUnit.AlunoListImplTest.findById" />
-        <item itemvalue="JUnit.AlunoListImplTest.findMany" />
       </list>
     </recent_temporary>
   </component>

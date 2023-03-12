@@ -60,7 +60,7 @@ public class AlunoListImpl implements AlunoDAO {
     public void update(Aluno aluno) {
         for (int i = 0; i < this.lista.size(); i++) {
             if (this.lista.get(i).getId() == aluno.getId()) {
-                this.lista.add(i, aluno);
+                this.lista.set(i, aluno);
                 return;
             }
         }

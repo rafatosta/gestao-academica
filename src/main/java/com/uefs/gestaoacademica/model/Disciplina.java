@@ -8,16 +8,16 @@ import java.util.List;
 public class Disciplina {
     private int id;
     private String nome;
-    private List<Integer> alunosID;
+    private int carga_horaria;
     private Integer professorID;
     private List<Avaliacao> avaliacoes;
 
     private final int LIMITE_AVALIACOES = 3;
 
-    public Disciplina(String nome) {
+    public Disciplina(String nome, int carga_horaria) {
         this.nome = nome;
-        this.alunosID = new ArrayList<Integer>();
-        this.avaliacoes = new ArrayList<Avaliacao>();
+        this.carga_horaria = carga_horaria;
+        this.avaliacoes = new ArrayList<>();
     }
 
     public void setId(int id) {
@@ -28,17 +28,8 @@ public class Disciplina {
         return id;
     }
 
-    public void alocarAluno(Aluno aluno) {
-        this.alunosID.add(aluno.getId());
-    }
-
-    public List<Aluno> getAlunos() {
-        List<Aluno> alunos = new ArrayList<Aluno>();
-        for (Integer alunoID : this.alunosID) {
-            Aluno a = DAO.getAluno().findById(alunoID);
-            alunos.add(a);
-        }
-        return alunos;
+    public List<Inscricao> getInscricoes(int semestre) {
+        return DAO.getInscricao().getInscricoesByDisciplina(this, semestre);
     }
 
     public void setProfessor(Professor professor) {
@@ -55,7 +46,7 @@ public class Disciplina {
         return this.avaliacoes;
     }
 
-    public int getLIMITE_AVALIACOES(){
+    public int getLIMITE_AVALIACOES() {
         return this.LIMITE_AVALIACOES;
     }
 

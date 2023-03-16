@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd0265ea-89b4-4fbf-af5d-c32040746d24" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/uefs/gestaoacademica/model/DisciplinaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uefs/gestaoacademica/model/DisciplinaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,103 +41,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/tosta/IdeaProjects/gestao-academica/src/main/java/com/uefs/gestaoacademica/dao/professor",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.47356322"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tosta/IdeaProjects/gestao-academica/src/main/java/com/uefs/gestaoacademica/dao/inscricao&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.47356322&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.uefs.gestaoacademica.dao.disciplina" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/inscricao" />
       <recent name="$PROJECT_DIR$/src/main/java/com/uefs/gestaoacademica/dao/professor" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.uefs.gestaoacademica.dao.aluno" />
       <recent name="com.uefs.gestaoacademica.model" />
+      <recent name="com.uefs.gestaoacademica.dao.inscricao" />
+      <recent name="com.uefs.gestaoacademica.dao.aluno" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GATestSuit">
-    <configuration name="AlunoListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisciplinaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestao-academica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.aluno.*" />
+          <option name="PATTERN" value="com.uefs.gestaoacademica.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.aluno" />
-      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.aluno.AlunoListImplTest" />
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.model" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.model.DisciplinaTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlunoListImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestao-academica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.aluno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.aluno" />
-      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.aluno.AlunoListImplTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlunoListImplTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestao-academica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.aluno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.aluno" />
-      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.aluno.AlunoListImplTest" />
-      <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlunoListImplTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestao-academica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.aluno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.aluno" />
-      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.aluno.AlunoListImplTest" />
-      <option name="METHOD_NAME" value="findByName" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,13 +111,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InscricaoListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gestao-academica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.inscricao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.inscricao" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.inscricao.InscricaoListImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InscricaoListImplTest.getIncricoesByAlunoSemestre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gestao-academica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.inscricao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.inscricao" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.inscricao.InscricaoListImplTest" />
+      <option name="METHOD_NAME" value="getIncricoesByAlunoSemestre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InscricaoListImplTest.getInscricoesByDisciplina" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gestao-academica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uefs.gestaoacademica.dao.inscricao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.uefs.gestaoacademica.dao.inscricao" />
+      <option name="MAIN_CLASS_NAME" value="com.uefs.gestaoacademica.dao.inscricao.InscricaoListImplTest" />
+      <option name="METHOD_NAME" value="getInscricoesByDisciplina" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GATestSuit" />
-        <item itemvalue="JUnit.AlunoListImplTest" />
-        <item itemvalue="JUnit.AlunoListImplTest.findByName" />
-        <item itemvalue="JUnit.AlunoListImplTest.delete" />
-        <item itemvalue="JUnit.AlunoListImplTest.findById" />
+        <item itemvalue="JUnit.DisciplinaTest" />
+        <item itemvalue="JUnit.InscricaoListImplTest" />
+        <item itemvalue="JUnit.InscricaoListImplTest.getInscricoesByDisciplina" />
+        <item itemvalue="JUnit.InscricaoListImplTest.getIncricoesByAlunoSemestre" />
       </list>
     </recent_temporary>
   </component>

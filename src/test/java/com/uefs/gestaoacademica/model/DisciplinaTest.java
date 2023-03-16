@@ -14,29 +14,7 @@ class DisciplinaTest {
 
     @BeforeEach
     void setUp() {
-        this.disciplina = new Disciplina("Programação II");
-    }
-
-    /**
-     * Testa a alocação dos alunos em uma disciplina
-     */
-    @Test
-    void alocarAluno() {
-        /* Cria os alunos*/
-        Aluno alunoJoao = DAO.getAluno().create(new Aluno("João"));
-        Aluno alunoGabriel = DAO.getAluno().create(new Aluno("Gabriel"));
-
-        /* Insere na disciplina */
-        this.disciplina.alocarAluno(alunoJoao);
-        this.disciplina.alocarAluno(alunoGabriel);
-
-        /* Pega a lista alunos alocados */
-
-        List<Aluno> disciplinaAlunos = this.disciplina.getAlunos();
-
-        /*verifica se são os mesmos retornados*/
-        assertEquals(alunoJoao, disciplinaAlunos.get(0));
-        assertEquals(alunoGabriel, disciplinaAlunos.get(1));
+        this.disciplina = new Disciplina("Programação II", 60);
     }
 
     /**

@@ -60,7 +60,7 @@ public class Disciplina {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Inscricao) {
+        if (obj instanceof Disciplina) {
             Disciplina i = (Disciplina) obj;
             if (this.getId() == i.getId()) {
                 return true;

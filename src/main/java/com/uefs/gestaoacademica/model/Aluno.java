@@ -28,7 +28,7 @@ public class Aluno extends Pessoa {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Inscricao) {
+        if (obj instanceof Aluno) {
             Aluno i = (Aluno) obj;
             if (this.getId() == i.getId()) {
                 return true;

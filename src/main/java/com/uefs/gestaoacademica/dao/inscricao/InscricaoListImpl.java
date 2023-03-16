@@ -64,6 +64,12 @@ public class InscricaoListImpl implements InscricaoDAO {
     }
 
     @Override
+    public void deleteMany() {
+        this.lista = new ArrayList<>();
+        this.nextID = 0;
+    }
+
+    @Override
     public List<Inscricao> getIncricoesByAluno(Aluno aluno) {
         List<Inscricao> inscricaoByAluno = new ArrayList<>();
         for (Inscricao inscricao : this.lista) {
@@ -75,10 +81,10 @@ public class InscricaoListImpl implements InscricaoDAO {
     }
 
     @Override
-    public List<Inscricao> getIncricoesByAluno(Aluno aluno, int semestre) {
+    public List<Inscricao> getIncricoesByAluno(Aluno aluno, String semestre) {
         List<Inscricao> inscricaoByAluno = new ArrayList<>();
         for (Inscricao inscricao : this.lista) {
-            if (inscricao.getAluno().equals(aluno) && inscricao.getSemestre() == semestre) {
+            if (inscricao.getAluno().equals(aluno) && inscricao.getSemestre().equals(semestre) ) {
                 inscricaoByAluno.add(inscricao);
             }
         }
@@ -86,10 +92,10 @@ public class InscricaoListImpl implements InscricaoDAO {
     }
 
     @Override
-    public List<Inscricao> getInscricoesByDisciplina(Disciplina disciplina, int semestre) {
+    public List<Inscricao> getInscricoesByDisciplina(Disciplina disciplina, String semestre) {
         List<Inscricao> inscricaoByDisciplina = new ArrayList<>();
         for (Inscricao inscricao : this.lista) {
-            if (inscricao.getDisciplina().equals(disciplina) && inscricao.getSemestre() == semestre) {
+            if (inscricao.getDisciplina().equals(disciplina) && inscricao.getSemestre().equals(semestre)) {
                 inscricaoByDisciplina.add(inscricao);
             }
         }

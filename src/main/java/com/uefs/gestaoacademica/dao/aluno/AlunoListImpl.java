@@ -79,5 +79,6 @@ public class AlunoListImpl implements AlunoDAO {
     @Override
     public void deleteMany() {
         this.lista = new ArrayList<>();
+        this.nextID = 0;
     }
 }

@@ -12,7 +12,7 @@ public class ProfessorListImpl implements ProfessorDAO {
     private int nextID;
 
     public ProfessorListImpl() {
-        this.lista = new ArrayList<Professor>();
+        this.lista = new ArrayList<>();
         this.nextID = 0;
     }
 
@@ -74,5 +74,11 @@ public class ProfessorListImpl implements ProfessorDAO {
                 return;
             }
         }
+    }
+
+    @Override
+    public void deleteMany() {
+        this.lista = new ArrayList<>();
+        this.nextID = 0;
     }
 }

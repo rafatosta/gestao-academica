@@ -32,7 +32,13 @@ public class AlunoFileImpl implements AlunoDAO {
     }
 
     @Override
+    public void deleteMany() {
+
+    }
+
+    @Override
     public List<Aluno> findByName(String name) {
         return null;
     }
+
 }

@@ -28,7 +28,15 @@ public class Disciplina {
         return id;
     }
 
-    public List<Inscricao> getInscricoes(int semestre) {
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public List<Inscricao> getInscricoes(String semestre) {
         return DAO.getInscricao().getInscricoesByDisciplina(this, semestre);
     }
 
@@ -50,5 +58,14 @@ public class Disciplina {
         return this.LIMITE_AVALIACOES;
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Inscricao) {
+            Disciplina i = (Disciplina) obj;
+            if (this.getId() == i.getId()) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

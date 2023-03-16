@@ -5,11 +5,11 @@ import com.uefs.gestaoacademica.dao.DAO;
 public class Inscricao {
 
     private int id;
-    private int semestre;
+    private String semestre;
     private int alunoID;
     private int disciplinaID;
 
-    public Inscricao(int semestre, Aluno aluno, Disciplina disciplina) {
+    public Inscricao(String semestre, Aluno aluno, Disciplina disciplina) {
         this.semestre = semestre;
         this.alunoID = aluno.getId();
         this.disciplinaID = disciplina.getId();
@@ -23,11 +23,11 @@ public class Inscricao {
         this.id = id;
     }
 
-    public int getSemestre() {
+    public String getSemestre() {
         return semestre;
     }
 
-    public void setSemestre(int semestre) {
+    public void setSemestre(String semestre) {
         this.semestre = semestre;
     }
 
@@ -45,5 +45,21 @@ public class Inscricao {
 
     public void setDisciplina(Disciplina disciplina) {
         this.disciplinaID = disciplina.getId();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Inscricao) {
+            Inscricao i = (Inscricao) obj;
+            if (this.getId() == i.getId()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return this.getId() + ", " + this.getAluno().getNome() + ", " + this.getDisciplina().getNome() + ", " + this.getSemestre();
     }
 }

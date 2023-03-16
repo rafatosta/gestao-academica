@@ -22,16 +22,17 @@ public class Aluno extends Pessoa {
         return DAO.getInscricao().getIncricoesByAluno(this);
     }
 
-    public List<Inscricao> getInscricoes(int semestre) {
+    public List<Inscricao> getInscricoes(String semestre) {
         return DAO.getInscricao().getIncricoesByAluno(this, semestre);
     }
 
     @Override
     public boolean equals(Object obj) {
-        Aluno aluno = (Aluno) obj;
-
-        if (this.getId() == aluno.getId()) {
-            return true;
+        if (obj instanceof Inscricao) {
+            Aluno i = (Aluno) obj;
+            if (this.getId() == i.getId()) {
+                return true;
+            }
         }
         return false;
     }

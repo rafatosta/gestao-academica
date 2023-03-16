@@ -13,6 +13,7 @@ module com.uefs.gestaoacademica {
 
     /** Necessário para a Test Suit */
     opens com.uefs.gestaoacademica.dao.aluno;
+    opens com.uefs.gestaoacademica.dao.inscricao;
     opens com.uefs.gestaoacademica.model;
 
     opens com.uefs.gestaoacademica.controller to javafx.fxml;

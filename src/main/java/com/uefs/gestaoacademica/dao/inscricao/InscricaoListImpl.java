@@ -73,7 +73,7 @@ public class InscricaoListImpl implements InscricaoDAO {
     public List<Inscricao> getIncricoesByAluno(Aluno aluno) {
         List<Inscricao> inscricaoByAluno = new ArrayList<>();
         for (Inscricao inscricao : this.lista) {
-            if (inscricao.getAluno().equals(inscricao.getAluno())) {
+            if (inscricao.getAluno().equals(aluno)) {
                 inscricaoByAluno.add(inscricao);
             }
         }
@@ -83,8 +83,9 @@ public class InscricaoListImpl implements InscricaoDAO {
     @Override
     public List<Inscricao> getIncricoesByAluno(Aluno aluno, String semestre) {
         List<Inscricao> inscricaoByAluno = new ArrayList<>();
+
         for (Inscricao inscricao : this.lista) {
-            if (inscricao.getAluno().equals(aluno) && inscricao.getSemestre().equals(semestre) ) {
+            if (inscricao.getAluno().equals(aluno) && inscricao.getSemestre().equals(semestre)) {
                 inscricaoByAluno.add(inscricao);
             }
         }

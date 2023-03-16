@@ -11,8 +11,8 @@ public interface InscricaoDAO extends CRUD<Inscricao> {
 
     public List<Inscricao> getIncricoesByAluno(Aluno aluno);
 
-    public List<Inscricao> getIncricoesByAluno(Aluno aluno, int semestre);
+    public List<Inscricao> getIncricoesByAluno(Aluno aluno, String semestre);
 
-    public List<Inscricao> getInscricoesByDisciplina(Disciplina disciplina, int semestre);
+    public List<Inscricao> getInscricoesByDisciplina(Disciplina disciplina, String semestre);
 
 }

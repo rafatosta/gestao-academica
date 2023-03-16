@@ -55,6 +55,11 @@ public class DisciplinaListImpl implements DisciplinaDAO {
     }
 
     @Override
+    public void deleteMany() {
+        this.lista = new ArrayList<>();
+    }
+
+    @Override
     public void delete(int id) {
         for (int i = 0; i < this.lista.size(); i++) {
             if (this.lista.get(i).getId() == id) {

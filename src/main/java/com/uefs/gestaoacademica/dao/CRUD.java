@@ -15,4 +15,6 @@ public interface CRUD<T> {
     public void update(T obj);
 
     public void delete(int id);
+
+    public void deleteMany();
 }

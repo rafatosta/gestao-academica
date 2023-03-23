@@ -4,7 +4,7 @@ import com.uefs.gestaoacademica.model.Aluno;
 
 import java.util.List;
 
-public interface CRUD<T> {
+public interface CRUD<T, E extends Exception> {
 
     public T create(T obj);
 
@@ -12,9 +12,9 @@ public interface CRUD<T> {
 
     public List<T> findMany();
 
-    public void update(T obj);
+    public void update(T obj) throws E;
 
-    public void delete(int id);
+    public void delete(int id) throws E;
 
     public void deleteMany();
 }

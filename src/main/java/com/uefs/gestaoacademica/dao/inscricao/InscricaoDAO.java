@@ -7,7 +7,7 @@ import com.uefs.gestaoacademica.model.Inscricao;
 
 import java.util.List;
 
-public interface InscricaoDAO extends CRUD<Inscricao> {
+public interface InscricaoDAO extends CRUD<Inscricao, Exception> {
 
     public List<Inscricao> getIncricoesByAluno(Aluno aluno);
 

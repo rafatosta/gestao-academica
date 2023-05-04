@@ -57,7 +57,7 @@ public class AlunoListImpl implements AlunoDAO {
     }
 
     @Override
-    public void update(Aluno aluno) {
+    public void update(Aluno aluno) throws Exception{
         for (int i = 0; i < this.lista.size(); i++) {
             if (this.lista.get(i).getId() == aluno.getId()) {
                 this.lista.set(i, aluno);

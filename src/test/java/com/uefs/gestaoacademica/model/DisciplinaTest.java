@@ -21,7 +21,7 @@ class DisciplinaTest {
      * Testa a adição de avaliações
      */
     @Test
-    void setAvaliacao() {
+    void addAvaliacao() throws LimiteAvException {
         Avaliacao av1 = new Avaliacao("Prova 1", 10);
         Avaliacao av2 = new Avaliacao("Prova 2", 10);
         Avaliacao av3 = new Avaliacao("Prova 3", 10);
@@ -34,11 +34,21 @@ class DisciplinaTest {
         assertEquals(av2, this.disciplina.getAvaliacoes().get(1));
         assertEquals(av3, this.disciplina.getAvaliacoes().get(2));
 
-        /* Testa a adição além do permitido */
-        Avaliacao av4 = new Avaliacao("Prova 4", 10);
-        this.disciplina.setAvaliacao(av4);
-
         assertEquals(this.disciplina.getLIMITE_AVALIACOES(), this.disciplina.getAvaliacoes().size());
+    }
 
+    @Test
+    public void limiteAvalicao() {
+        Avaliacao av1 = new Avaliacao("Prova 1", 10);
+        Avaliacao av2 = new Avaliacao("Prova 2", 10);
+        Avaliacao av3 = new Avaliacao("Prova 3", 10);
+        Avaliacao av4 = new Avaliacao("Prova 4", 10);
+
+        assertThrows(LimiteAvException.class, () -> {
+            this.disciplina.setAvaliacao(av1);
+            this.disciplina.setAvaliacao(av2);
+            this.disciplina.setAvaliacao(av3);
+            this.disciplina.setAvaliacao(av4);
+        });
     }
 }

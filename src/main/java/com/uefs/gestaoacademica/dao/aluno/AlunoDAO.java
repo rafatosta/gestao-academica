@@ -5,7 +5,7 @@ import com.uefs.gestaoacademica.model.Aluno;
 
 import java.util.List;
 
-public interface AlunoDAO extends CRUD<Aluno> {
+public interface AlunoDAO extends CRUD<Aluno, MyAlunoException> {
     public List<Aluno> findByName(String name);
 
 }

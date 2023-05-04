@@ -6,6 +6,6 @@ import com.uefs.gestaoacademica.model.Disciplina;
 
 import java.util.List;
 
-public interface DisciplinaDAO extends CRUD<Disciplina> {
+public interface DisciplinaDAO extends CRUD<Disciplina, Exception> {
 
 }

@@ -1,5 +1,8 @@
 package com.uefs.gestaoacademica;
 
+import com.uefs.gestaoacademica.model.Avaliacao;
+import com.uefs.gestaoacademica.model.Disciplina;
+import com.uefs.gestaoacademica.model.LimiteAvException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -17,7 +20,20 @@ public class MainApplication extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
+    public static void main(String[] args) throws LimiteAvException {
+
+        Disciplina d = new Disciplina("Prog 2", 60);
+
+
+            d.setAvaliacao(new Avaliacao("Av1", 5));
+            d.setAvaliacao(new Avaliacao("Av1", 5));
+            d.setAvaliacao(new Avaliacao("Av1", 5));
+            d.setAvaliacao(new Avaliacao("Av error", 5));
+
+
+
+
+
+       // launch();
     }
 }

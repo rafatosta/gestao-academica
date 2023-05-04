@@ -44,9 +44,11 @@ public class Disciplina {
         this.professorID = professor.getId();
     }
 
-    public void setAvaliacao(Avaliacao avaliacao) {
+    public void setAvaliacao(Avaliacao avaliacao) throws LimiteAvException {
         if (this.avaliacoes.size() < LIMITE_AVALIACOES) {
             avaliacoes.add(avaliacao);
+        } else {
+            throw new LimiteAvException(avaliacao, this);
         }
     }
 
